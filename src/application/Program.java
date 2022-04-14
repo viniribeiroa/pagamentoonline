@@ -41,6 +41,8 @@ public class Program {
 		for(Parcelamento it : contrato.getLista()) {
 			
 			System.out.println(it);
+			
+			sc.close();
 		}
 
 	}
